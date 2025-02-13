@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.cypress-ct.json"
+    }
+  ],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["cypress", "@testing-library/cypress"],
+    "paths": {
+      "@stackit/icons": ["../icon-library"],
+      "@stackit/icons/assets/icons": ["../icon-library/assets/icons"]
+    }
+  }
+}

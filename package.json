@@ -1,0 +1,22 @@
+{
+  "name": "stackit-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A monorepo for the Stackit Icon Library and its UI showcase.",
+  "author": "Tobias",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run dev --workspace=icon-library-ui",
+    "build": "npm run build --workspace=icon-library-ui",
+    "lint": "npm run lint --workspace=icon-library-ui",
+    "format": "npm run format --workspace=icon-library-ui"
+  },
+  "workspaces": {
+    "packages": [
+      "icon-library",
+      "icon-library-ui"
+    ]
+  },
+  "dependencies": {
+  }
+}

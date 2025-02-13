@@ -1,0 +1,13 @@
+{
+  "name": "@stackit/icons",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "assets", "icon-index.json", "assets/icons/*", "assets/utils.ts"],
+  "exports": {
+    ".": "./icon-index.json",
+    "./assets/*": "./assets/utils.ts",
+    "./*": "./assets/*",
+    "./icons/*": "./assets/icons/*"
+  }
+}
